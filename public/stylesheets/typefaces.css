@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'LobsterRegular';
+    src: url('typefaces/lobster/Lobster_1.3-webfont.eot');
+    src: url('typefaces/lobster/Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/lobster/Lobster_1.3-webfont.woff') format('woff'),
+         url('typefaces/lobster/Lobster_1.3-webfont.ttf') format('truetype'),
+         url('typefaces/lobster/Lobster_1.3-webfont.svg#Lobster13Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('typefaces/league_gothic/League_Gothic-webfont.eot');
+    src: url('typefaces/league_gothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/league_gothic/League_Gothic-webfont.woff') format('woff'),
+         url('typefaces/league_gothic/League_Gothic-webfont.ttf') format('truetype'),
+         url('typefaces/league_gothic/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
