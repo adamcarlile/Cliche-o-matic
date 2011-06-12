@@ -6,11 +6,6 @@ class Cliche
     @@array
   end
   
-  def self.random_cliche
-    select = rand(list.length)
-    return {:quote => list[select], :index => select}
-  end
-  
   def self.find(index)
     return {:quote => list[index], :index => index}
   end
