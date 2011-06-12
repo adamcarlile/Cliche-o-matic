@@ -94,15 +94,21 @@ nav ul li a:hover {
 }
 
 @media all and (orientation:portrait) {
-
+	div#container {
+		width: 95%;
+	}
 }
 
 @media all and (orientation:landscape) {
-
+	div#container {
+		width: 95%;
+	}
 }
 
 @media screen and (max-device-width: 480px) {
-
+	div#container {
+		width: 95%;
+	}
   /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
 }
 
