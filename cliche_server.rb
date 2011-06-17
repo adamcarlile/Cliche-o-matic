@@ -3,7 +3,6 @@ require 'sinatra'
 require 'lib/cliche_generator'
 
 get '/' do
-  sleep 3
   select = rand(Cliche.list.length)
   @cliche = Cliche.find(select.to_i)
   erb :index
