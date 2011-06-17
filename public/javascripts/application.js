@@ -1,17 +1,20 @@
 function getHrefContent(element, container, result) {
 	href = element.attr('href');
-	$(container).fadeOut(function(){
+	$(result).fadeOut(function(){
+		$(container).addClass('ajax-loading')
 		$(container).load(href + ' ' + result, function(){
-			$(container).fadeIn()
+			$(result).hide()
+			$(result).fadeIn()
+			$(container).removeClass('ajax-loading')
 		});
 	})
 }
 
 $(document).ready(function(){
 	$("header h2").fitText(0.5);
-	
 	$('a.ajax').live('click', function(e){
 		e.preventDefault();
 		getHrefContent($(this), '#content', '#result')
+		return false
 	})
 })
